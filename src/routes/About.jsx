@@ -9,7 +9,7 @@ export const About = () => {
     <Layout>
       <div className="flex w-full flex-col lg:flex-row pt-24 px-8">
         <div className="card bg-[#3198da] rounded-box py-6 grid  w-1/4 flex-grow place-items-center">
-          <div className="avatar">
+          <div className="avatar size-64">
             <div className="mask mask-squircle w-80">
               <img src={avatar} />
             </div>
@@ -28,9 +28,11 @@ export const About = () => {
           </div>
         </div>
         <div className="p-4"></div>
-        <div className=" grid py-6 h-full  w-1/2 flex-grow place-items-start">
-          <code className="text-5xl font-bold pb-6">Sobre Mi</code>
-          <code className="py-3">
+        <div className=" grid py-6 h-full text-gray-600  w-1/2 flex-grow place-items-start">
+          <code className="text-5xl font-bold pb-6 text-gray-900">
+            Sobre Mi
+          </code>
+          <code className="py-3 ">
             Hola mucho gusto, soy Yonaiker Ocando, nací en Caracas - Venezuela.
           </code>
 

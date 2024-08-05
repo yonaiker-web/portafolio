@@ -3,7 +3,7 @@ import "../css/flipcard.css"; // Asegúrate de importar el CSS personalizado
 
 export const FlipCard = ({ title, img, description, link, languages }) => {
   return (
-    <div className=" card-side card-compact bg-base-100 shadow-xl opacity-25 hover:opacity-100 transition duration-500">
+    <div className=" card-side card-compact bg-base-100 shadow-xl opacity-25 hover:opacity-100 transition duration-120">
       <div className=" ">
         <img src={img} alt={title} className="object-fill  h-48 w-96" />
       </div>
