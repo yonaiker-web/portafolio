@@ -8,7 +8,7 @@ export const Navbar = () => {
       : "text-gray-300 hover:text-white";
 
   return (
-    <nav className="bg-gray-800 p-4 fixed top-0 w-full z-50">
+    <nav className="bg-gray-800 p-4 fixed top-0 w-full z-50 pb-4">
       <div className="container mx-auto flex justify-center items-center">
         <div className="flex space-x-4">
           <NavLink to="/about" className={linkClass}>
