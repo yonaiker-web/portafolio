@@ -77,10 +77,10 @@ export const projects = [
     languages: "HTML5, CSS3, JavaScript",
   },
   {
-    title: "Restaurante de Comida",
+    title: "Escuela",
     img: courses,
-    description: "Pagina Web tipo catalogo",
-    link: "",
+    description: "Pagina Web informativa de cursos",
+    link: "https://yonaiker-web.github.io/course-school/",
     languages: "HTML5, CSS3, JavaScript",
   },
   {
