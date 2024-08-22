@@ -73,7 +73,7 @@ export const projects = [
     title: "Restaurante de Comida",
     img: food_restaurant,
     description: "Pagina Web tipo catalogo",
-    link: "",
+    link: "https://yonaiker-web.github.io/food-chikiluki/",
     languages: "HTML5, CSS3, JavaScript",
   },
   {
